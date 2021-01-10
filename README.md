@@ -45,7 +45,7 @@ Here is the application software architecture work-flow:
 
 - **MetaMask** installation guide can be found in [here](https://metamask.io/).
 
-### Commands to deploy & run the application:
+### Commands
 
 - Install necessarily Node.js packages
 
