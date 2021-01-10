@@ -2,7 +2,9 @@
 
 This project focuses on developing a DeFi app which implements the concept of yield farming / liquidity mining based Dai token.
 
-**INTRO GIF WILL BE HERE**
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/104132974-c70fd900-5391-11eb-844a-a4fb70694c60.gif">
+</p>
 
 ---
 This repository presents practices about:
@@ -56,3 +58,4 @@ Ahmet Özlü
 
 ## License
 This system is available under the MIT license. See the LICENSE file for more info.
+
