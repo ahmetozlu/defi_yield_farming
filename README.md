@@ -47,19 +47,19 @@ Here is the application software architecture work-flow:
 
 ### Commands to deploy & run the application:
 
-- **Install necessarily Node.js packages**
+- Install necessarily Node.js packages
 
       npm install
 
-- **Deploy smart contracts to the Etherium blockchain:**
+- Deploy smart contracts to the Etherium blockchain
 
       truffle migrate --reset
       
-- **Deploy and run the front-end application:**
+- Deploy and run the front-end application
 
       npm start run
       
-- **Run the scripts to issue tokens:**
+- Run the scripts to issue tokens
 
       truffle exec scripts/issue-tokens.js
 
@@ -78,3 +78,4 @@ Ahmet Özlü
 
 ## License
 This system is available under the MIT license. See the LICENSE file for more info.
+
