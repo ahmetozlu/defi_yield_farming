@@ -3,7 +3,7 @@
 This project focuses on developing a DeFi app which implements the concept of yield farming / liquidity mining based Dai token.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/22610163/104132974-c70fd900-5391-11eb-844a-a4fb70694c60.gif">
+  <img src="https://user-images.githubusercontent.com/22610163/104134870-61c1e500-539d-11eb-9f45-1a0ecaf583c4.gif">
 </p>
 
 ---
