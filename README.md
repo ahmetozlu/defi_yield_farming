@@ -29,6 +29,8 @@ Here is the application software architecture work-flow:
 
 ## Installation
 
+### Setup
+
 - **Node.js**
 
       sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
@@ -42,6 +44,24 @@ Here is the application software architecture work-flow:
 - **Ganache** installation guide can be found in [here](https://www.trufflesuite.com/ganache).
 
 - **MetaMask** installation guide can be found in [here](https://metamask.io/).
+
+### Commands to deploy & run the application:
+
+- **Install necessarily Node.js packages**
+
+      npm install
+
+- **Deploy smart contracts to the Etherium blockchain:**
+
+      truffle migrate --reset
+      
+- **Deploy and run the front-end application:**
+
+      npm start run
+      
+- **Run the scripts to issue tokens:**
+
+      truffle exec scripts/issue-tokens.js
 
 ## Citation
 If you use this code for your publications, please cite it as:
@@ -58,4 +78,3 @@ Ahmet Özlü
 
 ## License
 This system is available under the MIT license. See the LICENSE file for more info.
-
