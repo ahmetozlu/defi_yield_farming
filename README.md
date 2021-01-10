@@ -6,6 +6,8 @@ This project focuses on developing a DeFi app which implements the concept of yi
   <img src="https://user-images.githubusercontent.com/22610163/104134982-2b389a00-539e-11eb-9ac7-642dbe48ec4d.gif">
 </p>
 
+Demo of the DApp with the screenshots can be foun on [this wiki page](https://github.com/ahmetozlu/defi_yield_farming/wiki/Demo-of-the-DApp).
+
 ---
 This repository presents practices about:
 - Setup a blockchain.
