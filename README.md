@@ -11,8 +11,8 @@ Demo of the DApp with the screenshots can be found on [this wiki page](https://g
 ---
 This repository presents practices about:
 - Setup a blockchain.
-- Develop Etherium smart contracts.
-- Write tests for the developed Etherium smart contracts. 
+- Develop Ethereum smart contracts.
+- Write tests for the developed Ethereum smart contracts. 
 - Develop a client-side website so people can actually use this application.
 ---
 
@@ -53,7 +53,7 @@ Here is the application software architecture work-flow:
 
       npm install
 
-- Deploy smart contracts to the Etherium blockchain
+- Deploy smart contracts to the Ethereum blockchain
 
       truffle migrate --reset
       
