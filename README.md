@@ -18,6 +18,22 @@ This repository presents practices about:
 
 You can check the quick tutorial about "what is the blockchain?" in [here](https://ahmetozlu93.medium.com/blockchain-in-a-nutshell-8ad72743971e).
 
+## Theory
+
+### What is yield farming?
+
+At its core, yield farming is a process that allows cryptocurrency holders to lock up their holdings, which in turn provides them with rewards.
+
+**In brief:**
+
+- Yield farming lets you lock up funds, providing rewards in the process.
+- It involves lending out cryptos via DeFi protocols in order to earn fixed or variable interest.
+- The rewards can be far greater than traditional investments, but higher rewards bring higher risks, especially in such a volatile market.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/118402446-91963780-b672-11eb-9574-12e19fb789f9.png" | width=720>
+</p>
+
 ## Application Software Architecture
 
 <p align="center">
