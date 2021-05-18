@@ -34,7 +34,7 @@ At its core, yield farming is a process that allows cryptocurrency holders to lo
   <img src="https://user-images.githubusercontent.com/22610163/118402446-91963780-b672-11eb-9574-12e19fb789f9.png" | width=720>
 </p>
 
-## Application Software Architecture
+### Application Software Architecture
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22610163/104122166-729a3880-5354-11eb-9088-5123e47990d2.png" | width=720>
