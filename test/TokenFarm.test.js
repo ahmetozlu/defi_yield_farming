@@ -53,19 +53,18 @@ contract('TokenFarm', ([owner, investor]) => {
 	})
 
 	describe('Farming tokens', async () => {
-
 		it('rewards investors for staking mDai tokens', async() => {
 			let result
 
-			// Check investor balance before staking
+			// check investor balance before staking
 			result = await daiToken.balanceOf(investor)
 			assert.equal(result.toString(), tokens('100'), 'investor Mock DAI wallet balance correct before staking')
 
-			// Stake Mock DAI Tokens
+			// stake Mock DAI Tokens
 			await daiToken.approve(tokenFarm.address, tokens('100'), { from: investor })
 			await tokenFarm.stakeTokens(tokens('100'), { from: investor })
 
-			// Check staking result
+			// check staking result
 			result = await daiToken.balanceOf(investor)
 			assert.equal(result.toString(), tokens('0'), 'investor Mock DAI wallet balance correct before staking')
 
@@ -78,20 +77,20 @@ contract('TokenFarm', ([owner, investor]) => {
 			result = await tokenFarm.isStaking(investor)
 			assert.equal(result.toString(), 'true', 'investor staking status correct after staking')
 
-			// Issue Tokens
+			// issue tokens
 			await tokenFarm.issueTokens({ from: owner })
 
-			// Check balances after issuance
+			// check balances after issuance
 			result = await dappToken.balanceOf(investor)
 			assert.equal(result.toString(), tokens('100'), 'investor DApp Token wallet balance correct after issuance')
 
-			// Ensure that only owner can issue tokens
+			// ensure that only owner can issue tokens
 			await tokenFarm.issueTokens({ from: investor}).should.be.rejected;
 
-			// Unstake tokens
+			// unstake tokens
 			await tokenFarm.unstakeTokens({ from: investor });
 
-			// Check results after unstaking
+			// check results after unstaking
 			result = await daiToken.balanceOf(investor)
 			assert.equal(result.toString(), tokens('100'), 'investor Mock DAI wallet balance correct after staking')
 
@@ -103,7 +102,6 @@ contract('TokenFarm', ([owner, investor]) => {
 
 			result = await tokenFarm.isStaking(investor)
 			assert.equal(result.toString(), 'false', 'investor staking status correct after staking')
-
 		})
-	})
+	})	
 })
