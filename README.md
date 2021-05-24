@@ -86,7 +86,7 @@ Demo of the DApp with the screenshots can be found on [this wiki page](https://g
 ## Citation
 If you use this code for your publications, please cite it as:
 
-    @ONLINE{vdtct,
+    @ONLINE{
         author = "Ahmet Özlü",
         title  = "DeFi Yield Farming App",
         year   = "2021",
