@@ -18,6 +18,13 @@ This repository presents practices about:
 
 You can check the quick tutorial about "what is the blockchain?" in [here](https://ahmetozlu93.medium.com/blockchain-in-a-nutshell-8ad72743971e).
 
+---
+ToDos:
+- Add OpenZeppelin Contracts to minimize risks.
+- Develop a new feature to keep track of the rewards.
+- Implement a method to withdraw the rewards automatically when certain conditions are met (it is triggered manually in the current version).
+---
+
 ## Theory
 
 ### What is yield farming?
