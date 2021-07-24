@@ -89,7 +89,7 @@ Here is the application software architecture work-flow:
       truffle exec scripts/issue-tokens.js
 
 Demo of the DApp with the screenshots can be found on [this wiki page](https://github.com/ahmetozlu/defi_yield_farming/wiki/Demo-of-the-DApp).
-    
+
 ## Citation
 If you use this code for your publications, please cite it as:
 
@@ -99,6 +99,9 @@ If you use this code for your publications, please cite it as:
         year   = "2021",
         url    = "https://github.com/ahmetozlu/defi_yield_farming"
     }
+
+## References
+This project was built on top of **Dapp University** implementation, [here](https://github.com/dappuniversity/defi_tutorial) you can find more details.
 
 ## Author
 Ahmet Özlü
